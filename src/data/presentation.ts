@@ -11,14 +11,14 @@ type Presentation = {
   profile?: string;
 };
 
-const exata = "<a href='https://www.exata.it/en/' target='_blank' class='hover:underline'>*Exata Tech*</a>"
+const exata = "<a href='https://www.exata.it/en/' target='_blank' class='hover:underline'>*Exata Technology*</a>"
 
 const presentation: Presentation = {
   mail: "gabrielhamasaki82@outlook.com",
   title: "Hi, I’m Gabriel Hamasaki 👋",
   // profile: "/profile.webp",
   description:
-    `Welcome, i'm a *Brazilian Software Engineer* with over *2 years* of web experience. I am currently working with *Laravel* and *Vuejs* in ${exata} Outside of work i am learning *nextjs* with *typescript* and *tailwindcss* to improve my skills. I am also a *otaku* and *gamer* in my free time. I am always looking for new challenges and opportunities to grow.`,
+    `Welcome! I'm a *Brazilian Software Engineer* with over *2 years* of experience in *web development*. Currently, I'm working with *Laravel* and *Vue.js* at ${exata}. Outside of work, I'm enhancing my skills by learning *Next.js* with *TypeScript* and *Tailwind CSS*. In my free time, I enjoy *anime* (as an otaku) and *video games*. I'm always eager to take on new *challenges* and *opportunities* that will foster *my growth*.`,
   socials: [
     {
       label: "LinkedIn",
