@@ -1,19 +1,24 @@
 export type Project = {
   title: string;
+  name: string;
   techs: string[];
   link: string;
   isComingSoon?: boolean;
+  description?: string;
 };
 
 const projects: Project[] = [
   {
     title: "Atena",
-    techs: ["Turbo Repo", "ReactJS (NextJS)", "trpc", "react-query", "zod", "next-auth", "drizzle", "tailwindcss"],
+    name: "atena",
+    techs: ["ReactJS (NextJS)", "Trpc", "ReactQuery", "Zod", "NextAuth", "Drizzle", "Tailwindcss", "Mono repo"],
     link: "https://github.com/gabehamasaki/Atena",
+    isComingSoon: true,
   },
   {
     title: "Polls API",
-    techs: ["Fastify", "TypeScript", "Drizzle", "Websocket", "redis", "zod"],
+    name: "polls",
+    techs: ["Fastify", "TypeScript", "Drizzle", "Websocket", "Redis", "Zod"],
     link: "https://github.com/gabehamasaki/polls",
   },
 ];

@@ -4,6 +4,7 @@ type Social = {
 };
 
 type Presentation = {
+  name: string;
   mail: string;
   title: string;
   description: string;
@@ -14,6 +15,7 @@ type Presentation = {
 const exata = "<a href='https://www.exata.it/en/' target='_blank' class='hover:underline'>*Exata Technology*</a>"
 
 const presentation: Presentation = {
+  name: "Gabriel Hamasaki",
   mail: "gabrielhamasaki82@outlook.com",
   title: "Hi, I’m Gabriel Hamasaki 👋",
   // profile: "/profile.webp",
