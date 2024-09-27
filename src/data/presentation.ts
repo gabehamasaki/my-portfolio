@@ -20,7 +20,7 @@ const presentation: Presentation = {
   mail: "gabrielhamasaki82@outlook.com",
   title: "Hi, I’m Gabriel Hamasaki 👋",
   // profile: "/profile.webp",
-  description: `Welcome! I'm a *Brazilian Software Engineer* with over *${yearsOfExperience} years* of experience in *web development*. Currently, I'm working with *Laravel* and *Vue.js* at ${exata}. Outside of work, I'm enhancing my skills by learning *Next.js* with *TypeScript* and *Tailwind CSS*. In my free time, I enjoy *anime* (as an otaku) and *video games*. I'm always eager to take on new *challenges* and *opportunities* that will foster *my growth*.`,
+  description: `I'm a *Brazilian Software Engineer* with over *${yearsOfExperience} years* of experience in *web development*. Currently, I'm working with *Laravel* and *Vue.js* at ${exata}. Outside of work, I'm enhancing my skills by learning *GoLang* and *Machine Learning*. I'm always eager to take on new *challenges* and *opportunities* that will foster *my growth*.`,
   socials: [
     {
       label: "LinkedIn",

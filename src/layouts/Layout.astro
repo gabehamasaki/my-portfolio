@@ -1,6 +1,7 @@
 ---
 import Header from "../components/Header.astro";
 import BlurCircle from "@/components/shared/BlurCircle.astro";
+import Starfield from "@/components/Starfield.astro";
 import theme from "@/data/theme";
 import SEOTags from "@/components/seo/SEOTags.astro";
 import type { HeadTags } from "@/utils/types/HeadTags";
@@ -16,13 +17,14 @@ const headTags = Astro.props;
 
 <!DOCTYPE html>
 <html lang="en">
-  <SEOTags {...headTags} />
-  <body
-    class="mx-auto flex min-h-screen max-w-[872px] flex-col gap-9 bg-neutral-950 px-10 py-8 text-sm text-neutral-400 md:gap-20 md:py-16"
-  >
-    <Header />
-    <BlurCircle position="top" color={theme.colors.blur.top} />
-    <BlurCircle position="bottom" color={theme.colors.blur.bottom} />
-    <slot />
-  </body>
+    <SEOTags {...headTags} />
+    <body
+        class="mx-auto flex min-h-screen max-w-[872px] flex-col gap-9 bg-neutral-950 px-10 py-8 text-sm text-neutral-400 md:gap-20 md:py-16"
+    >
+        <Header />
+        <slot />
+        <BlurCircle position="top" color={theme.colors.blur.top} />
+        <BlurCircle position="bottom" color={theme.colors.blur.bottom} />
+        <Starfield starCount={2500} speedFactor={0.01} />
+    </body>
 </html>
