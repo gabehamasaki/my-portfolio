@@ -19,12 +19,12 @@ const headTags = Astro.props;
 <html lang="en">
     <SEOTags {...headTags} />
     <body
-        class="mx-auto flex min-h-screen max-w-[872px] flex-col gap-9 bg-neutral-950 px-10 py-8 text-sm text-neutral-400 md:gap-20 md:py-16"
+        class="mx-auto flex min-h-screen max-w-5xl flex-col gap-9 bg-neutral-950 px-10 py-8 text-sm text-neutral-400 md:gap-12 md:py-10"
     >
         <Header />
         <slot />
         <BlurCircle position="top" color={theme.colors.blur.top} />
         <BlurCircle position="bottom" color={theme.colors.blur.bottom} />
-        <Starfield starCount={2500} speedFactor={0.01} />
+        <Starfield starCount={1000} speedFactor={0.008} />
     </body>
 </html>
