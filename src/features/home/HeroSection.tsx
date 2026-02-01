@@ -13,7 +13,7 @@ export function HeroSection({ onContactClick }: HeroSectionProps) {
   const { theme } = useTheme();
 
   return (
-    <section id="home" className="min-h-screen flex items-center justify-center px-8 pt-20 relative">
+    <section id="home" className="min-h-screen flex items-center justify-center px-4 md:px-8 pt-24 md:pt-20 relative">
       <div className="max-w-6xl w-full">
         <motion.div
           className="flex flex-col items-center gap-12"
@@ -29,7 +29,7 @@ export function HeroSection({ onContactClick }: HeroSectionProps) {
             animate={{ opacity: 1 }}
             transition={{ delay: 0.3, duration: 0.8 }}
           >
-            <h1 className={`text-xl md:text-2xl tracking-[0.3em] uppercase ${theme.textSecondary}`}>
+            <h1 className={`text-lg md:text-2xl tracking-[0.2em] md:tracking-[0.3em] uppercase ${theme.textSecondary}`}>
               {t('hero.title')}
             </h1>
             <p className={`text-lg md:text-xl ${theme.textTertiary} max-w-2xl leading-relaxed`}>
