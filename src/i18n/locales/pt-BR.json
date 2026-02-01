@@ -7,18 +7,18 @@
         "contact": "Contato"
     },
     "hero": {
-        "title": "Desenvolvedor Full Stack",
-        "subtitle": "Soluções de alta complexidade para clientes multinacionais",
+        "title": "Engenheiro de Software",
+        "subtitle": "Soluções de alta complexidade",
         "cta": "Entre em Contato"
     },
     "about": {
         "title": "Sobre",
-        "bio1": "Desenvolvedor Full Stack com experiência em projetos de alta complexidade e criticidade, atuando em soluções de grande escala para clientes multinacionais na América Latina e América do Norte.",
+        "bio1": "Engenheiro de Software com experiência em projetos de alta complexidade e criticidade, atuando em soluções de grande escala para clientes multinacionais na América Latina e América do Norte.",
         "bio2": "Experiência sólida em análise de requisitos, regras de negócio, desenvolvimento backend e frontend, integração de APIs RESTful, microsserviços e documentação de sistemas.",
         "specialties": "Especialidades"
     },
     "skills": {
-        "title": "Stack Tecnológico"
+        "title": "Stack"
     },
     "experience": {
         "title": "Experiência",

@@ -7,18 +7,18 @@
         "contact": "Contact"
     },
     "hero": {
-        "title": "Full Stack Developer",
-        "subtitle": "High-complexity solutions for multinational enterprise clients",
+        "title": "Software Engineer",
+        "subtitle": "High-complexity solutions",
         "cta": "Get in Touch"
     },
     "about": {
         "title": "About",
-        "bio1": "Full Stack Developer with experience in high-complexity and critical projects, working on large-scale solutions for multinational clients in Latin America and North America.",
+        "bio1": "Software Engineer with experience in high-complexity and critical projects, working on large-scale solutions for multinational clients in Latin America and North America.",
         "bio2": "Solid experience in requirements analysis, business rules, backend and frontend development, RESTful API integration, microservices, and system documentation.",
         "specialties": "Specialties"
     },
     "skills": {
-        "title": "Tech Stack"
+        "title": "Stack"
     },
     "experience": {
         "title": "Experience",

@@ -7,18 +7,18 @@
         "contact": "Contacto"
     },
     "hero": {
-        "title": "Desarrollador Full Stack",
-        "subtitle": "Soluciones de alta complejidad para clientes multinacionales",
+        "title": "Ingeniero de Software",
+        "subtitle": "Soluciones de alta complejidad",
         "cta": "Contáctame"
     },
     "about": {
         "title": "Sobre Mí",
-        "bio1": "Desarrollador Full Stack con experiencia en proyectos de alta complejidad y criticidad, trabajando en soluciones de gran escala para clientes multinacionales en América Latina y América del Norte.",
+        "bio1": "Ingeniero de Software con experiencia en proyectos de alta complejidad y criticidad, trabajando en soluciones de gran escala para clientes multinacionales en América Latina y América del Norte.",
         "bio2": "Experiencia sólida en análisis de requisitos, reglas de negocio, desarrollo backend y frontend, integración de APIs RESTful, microservicios y documentación de sistemas.",
         "specialties": "Especialidades"
     },
     "skills": {
-        "title": "Stack Tecnológico"
+        "title": "Stack"
     },
     "experience": {
         "title": "Experiencia",
@@ -30,7 +30,7 @@
                 "description": "Desarrollo de proyectos de alto impacto para empresas multinacionales. Plataforma de Datos para Evaluación de Experiencia del Cliente, Plataforma de Compromiso ESG y Portal de Gestión de Almacén y Logística."
             },
             "freelance": {
-                "title": "Software Engineer",
+                "title": "Ingeniero de Software",
                 "company": "Freelance",
                 "period": "Ene 2023 - Oct 2023",
                 "description": "Desarrollo de soluciones full-stack utilizando Go, PHP y tecnologías modernas para diversos clientes."

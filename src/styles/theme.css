@@ -179,4 +179,24 @@
     font-weight: var(--font-weight-normal);
     line-height: 1.5;
   }
+
+  /* Custom Scrollbar */
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: var(--background);
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background-color: #8b5cf6; /* Violet-500 fallback */
+    background-image: linear-gradient(to bottom, #a855f7, #7c3aed); /* Purple-500 to Violet-600 */
+    border-radius: 5px;
+    border: 2px solid var(--background);
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background-image: linear-gradient(to bottom, #d8b4fe, #a78bfa); /* Light Purple on hover */
+  }
 }
