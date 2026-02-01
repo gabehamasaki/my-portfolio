@@ -1,0 +1,16 @@
+<svg viewBox="0 0 300 140" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .fill-content { fill: #030213; }
+    .stroke-content { stroke: #030213; }
+    @media (prefers-color-scheme: dark) {
+      .fill-content { fill: #ffffff; }
+      .stroke-content { stroke: #ffffff; }
+    }
+  </style>
+  <text x="20" y="55" class="fill-content" font-size="32" font-family="serif">濱</text>
+  <text x="20" y="100" class="fill-content" font-size="32" font-family="serif">崎</text>
+  <line x1="70" y1="15" x2="70" y2="125" class="stroke-content" stroke-width="1"/>
+  <text x="90" y="55" class="fill-content" font-size="48" font-family="serif" font-weight="400" letter-spacing="0.02em">HAMA</text>
+  <line x1="90" y1="70" x2="190" y2="70" class="stroke-content" stroke-width="1"/>
+  <text x="90" y="110" class="fill-content" font-size="48" font-family="serif" font-weight="400" letter-spacing="0.02em">SAKIS</text>
+</svg>
