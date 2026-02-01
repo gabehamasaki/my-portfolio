@@ -182,21 +182,21 @@
 
   /* Custom Scrollbar */
   ::-webkit-scrollbar {
-    width: 10px;
+    width: 8px;
   }
 
   ::-webkit-scrollbar-track {
-    background: var(--background);
+    background: #020205; /* Deep black/dark background */
   }
 
   ::-webkit-scrollbar-thumb {
-    background-color: #8b5cf6; /* Violet-500 fallback */
-    background-image: linear-gradient(to bottom, #a855f7, #7c3aed); /* Purple-500 to Violet-600 */
-    border-radius: 5px;
-    border: 2px solid var(--background);
+    background: #6d28d9; /* Soft base purple */
+    background-image: linear-gradient(to bottom, #7c3aed, #5b21b6); /* Soft violet gradient */
+    border-radius: 4px;
+    border: 1px solid #020205; /* Tiny border to separate from track */
   }
 
   ::-webkit-scrollbar-thumb:hover {
-    background-image: linear-gradient(to bottom, #d8b4fe, #a78bfa); /* Light Purple on hover */
+    background-image: linear-gradient(to bottom, #8b5cf6, #6d28d9); /* Brighter soft purple on hover */
   }
 }
