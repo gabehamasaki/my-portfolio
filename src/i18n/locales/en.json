@@ -1,0 +1,91 @@
+{
+    "nav": {
+        "home": "Home",
+        "about": "About",
+        "experience": "Experience",
+        "projects": "Projects",
+        "contact": "Contact"
+    },
+    "hero": {
+        "title": "Full Stack Developer",
+        "subtitle": "High-complexity solutions for multinational enterprise clients",
+        "cta": "Get in Touch"
+    },
+    "about": {
+        "title": "About",
+        "bio1": "Full Stack Developer with experience in high-complexity and critical projects, working on large-scale solutions for multinational clients in Latin America and North America.",
+        "bio2": "Solid experience in requirements analysis, business rules, backend and frontend development, RESTful API integration, microservices, and system documentation.",
+        "specialties": "Specialties"
+    },
+    "skills": {
+        "title": "Tech Stack"
+    },
+    "experience": {
+        "title": "Experience",
+        "jobs": {
+            "exata": {
+                "title": "Development Analyst",
+                "company": "Exata Tech",
+                "period": "Oct 2023 - Present",
+                "description": "Development of high-impact projects for multinational companies. Customer Experience Data Platform, ESG Engagement Platform, and Warehouse & Logistics Management Portal."
+            },
+            "freelance": {
+                "title": "Software Engineer",
+                "company": "Freelance",
+                "period": "Jan 2023 - Oct 2023",
+                "description": "Development of full-stack solutions using Go, PHP, and modern technologies for various clients."
+            },
+            "setebit": {
+                "title": "Frontend Developer",
+                "company": "Setebit",
+                "period": "Jan 2022 - Dec 2022",
+                "description": "Development of sports betting system using PHP and Vue.js, focused on performance and user experience."
+            }
+        }
+    },
+    "projects": {
+        "title": "Featured Projects",
+        "items": {
+            "customerHub": {
+                "title": "Customer Experience Data Hub",
+                "description": "Robust platform acting as a centralized hub for processing, consolidating, and securely sharing sales and service data with third-party organizations."
+            },
+            "esg": {
+                "title": "ESG Engagement Platform",
+                "description": "Dynamic solution to engage teams in achieving ESG goals, aligned with the UN Sustainable Development Goals (SDGs)."
+            },
+            "warehouse": {
+                "title": "Warehouse & Logistics Portal",
+                "description": "Complete portal for optimizing storage management, transportation, and delivery, coordinating multiple transport providers."
+            },
+            "betting": {
+                "title": "Sports Betting Platform",
+                "description": "High-performance sports betting system with real-time transaction processing."
+            }
+        }
+    },
+    "contact": {
+        "title": "Let's Talk",
+        "subtitle": "I'm always open to discussing new projects, creative opportunities, or partnerships.",
+        "form": {
+            "name": "Name",
+            "email": "Email",
+            "message": "Message",
+            "send": "Send Message",
+            "sent": "Message Sent!"
+        }
+    },
+    "footer": {
+        "rights": "All rights reserved.",
+        "privacy": "Privacy Policy",
+        "terms": "Terms of Service"
+    },
+    "specialties": {
+        "requirements": "Requirements Analysis & Business Rules",
+        "fullstack": "Full-Stack Development",
+        "api": "API Integration & Microservices",
+        "architecture": "Systems Architecture",
+        "sre": "Site Reliability Engineering (SRE)",
+        "cloud": "Cloud Computing (Azure/AWS)"
+    }
+}

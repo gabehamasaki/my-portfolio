@@ -1,0 +1,91 @@
+{
+    "nav": {
+        "home": "Inicio",
+        "about": "Sobre",
+        "experience": "Experiencia",
+        "projects": "Proyectos",
+        "contact": "Contacto"
+    },
+    "hero": {
+        "title": "Desarrollador Full Stack",
+        "subtitle": "Soluciones de alta complejidad para clientes multinacionales",
+        "cta": "Contáctame"
+    },
+    "about": {
+        "title": "Sobre Mí",
+        "bio1": "Desarrollador Full Stack con experiencia en proyectos de alta complejidad y criticidad, trabajando en soluciones de gran escala para clientes multinacionales en América Latina y América del Norte.",
+        "bio2": "Experiencia sólida en análisis de requisitos, reglas de negocio, desarrollo backend y frontend, integración de APIs RESTful, microservicios y documentación de sistemas.",
+        "specialties": "Especialidades"
+    },
+    "skills": {
+        "title": "Stack Tecnológico"
+    },
+    "experience": {
+        "title": "Experiencia",
+        "jobs": {
+            "exata": {
+                "title": "Analista de Desarrollo",
+                "company": "Exata Tech",
+                "period": "Oct 2023 - Presente",
+                "description": "Desarrollo de proyectos de alto impacto para empresas multinacionales. Plataforma de Datos para Evaluación de Experiencia del Cliente, Plataforma de Compromiso ESG y Portal de Gestión de Almacén y Logística."
+            },
+            "freelance": {
+                "title": "Software Engineer",
+                "company": "Freelance",
+                "period": "Ene 2023 - Oct 2023",
+                "description": "Desarrollo de soluciones full-stack utilizando Go, PHP y tecnologías modernas para diversos clientes."
+            },
+            "setebit": {
+                "title": "Frontend Developer",
+                "company": "Setebit",
+                "period": "Ene 2022 - Dic 2022",
+                "description": "Desarrollo de sistema de apuestas deportivas utilizando PHP y Vue.js, con enfoque en rendimiento y experiencia de usuario."
+            }
+        }
+    },
+    "projects": {
+        "title": "Proyectos Destacados",
+        "items": {
+            "customerHub": {
+                "title": "Customer Experience Data Hub",
+                "description": "Plataforma robusta que actúa como hub centralizado para procesamiento, consolidación y compartición segura de datos de ventas y servicios con organizaciones terceras."
+            },
+            "esg": {
+                "title": "ESG Engagement Platform",
+                "description": "Solución dinámica para comprometer equipos en el logro de metas ESG, alineada con los Objetivos de Desarrollo Sostenible (ODS) de la ONU."
+            },
+            "warehouse": {
+                "title": "Warehouse & Logistics Portal",
+                "description": "Portal completo para optimización de gestión de almacenamiento, transporte y entrega, coordinando múltiples proveedores de transporte."
+            },
+            "betting": {
+                "title": "Sports Betting Platform",
+                "description": "Sistema de apuestas deportivas de alto rendimiento con procesamiento de transacciones en tiempo real."
+            }
+        }
+    },
+    "contact": {
+        "title": "Hablemos",
+        "subtitle": "Siempre estoy abierto a discutir nuevos proyectos, oportunidades creativas o colaboraciones.",
+        "form": {
+            "name": "Nombre",
+            "email": "Correo",
+            "message": "Mensaje",
+            "send": "Enviar Mensaje",
+            "sent": "¡Mensaje Enviado!"
+        }
+    },
+    "footer": {
+        "rights": "Todos los derechos reservados.",
+        "privacy": "Política de Privacidad",
+        "terms": "Términos de Servicio"
+    },
+    "specialties": {
+        "requirements": "Análisis de Requisitos y Reglas de Negocio",
+        "fullstack": "Desarrollo Full-Stack",
+        "api": "Integración de APIs y Microservicios",
+        "architecture": "Arquitectura de Sistemas",
+        "sre": "Site Reliability Engineering (SRE)",
+        "cloud": "Cloud Computing (Azure/AWS)"
+    }
+}
