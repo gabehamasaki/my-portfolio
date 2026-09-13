@@ -16,7 +16,7 @@ export function AboutSection() {
   const { theme } = useTheme();
 
   return (
-    <section id="about" className={`min-h-screen flex items-center justify-center px-8 py-20 ${theme.border} border-t`}>
+    <section id="about" className={`portfolio-section min-h-screen flex items-center justify-center px-8 py-20 ${theme.border} border-t`}>
       <div className="max-w-4xl w-full">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -30,7 +30,6 @@ export function AboutSection() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
-            {/* Bio */}
             <motion.div
               className="space-y-6"
               initial={{ opacity: 0, x: -20 }}
@@ -47,7 +46,6 @@ export function AboutSection() {
               </p>
             </motion.div>
 
-            {/* Specialties */}
             <motion.div
               className="space-y-6"
               initial={{ opacity: 0, x: 20 }}

@@ -35,7 +35,7 @@ export function SkillsSection() {
     const { theme } = useTheme();
 
     return (
-        <section className={`px-4 md:px-8 py-16 md:py-20 ${theme.sectionBg}`}>
+        <section className={`portfolio-section px-4 md:px-8 py-16 md:py-20 ${theme.sectionBg}`}>
             <div className="max-w-6xl mx-auto">
                 <motion.div
                     initial={{ opacity: 0, y: 20 }}

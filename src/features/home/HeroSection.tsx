@@ -13,7 +13,7 @@ export function HeroSection({ onContactClick }: HeroSectionProps) {
   const { theme } = useTheme();
 
   return (
-    <section id="home" className="min-h-screen flex items-center justify-center px-4 md:px-8 pt-24 md:pt-20 relative">
+    <section id="home" className="portfolio-section min-h-screen flex items-center justify-center px-4 md:px-8 pt-24 md:pt-20 relative">
       <div className="max-w-6xl w-full">
         <motion.div
           className="flex flex-col items-center gap-12"

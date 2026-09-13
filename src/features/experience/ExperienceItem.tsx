@@ -20,10 +20,8 @@ export function ExperienceItem({ title, company, period, description, index }: E
       viewport={{ once: true }}
       transition={{ duration: 0.5, delay: 0.1 * index }}
     >
-      {/* Timeline line */}
-      <div className={`absolute left-0 top-2 bottom-0 w-px bg-gradient-to-b from-purple-500 via-violet-500/50 to-transparent`} />
+      <div className="absolute left-0 top-2 bottom-0 w-px bg-gradient-to-b from-purple-500 via-violet-500/50 to-transparent" />
 
-      {/* Timeline dot */}
       <motion.div
         className="absolute left-0 top-2 w-2.5 h-2.5 -translate-x-1/2 rounded-full bg-gradient-to-r from-purple-500 to-violet-500 shadow-lg shadow-purple-500/30"
         initial={{ scale: 0 }}

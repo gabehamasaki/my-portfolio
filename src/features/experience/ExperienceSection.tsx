@@ -10,7 +10,7 @@ export function ExperienceSection() {
   const { theme } = useTheme();
 
   return (
-    <section id="experience" className={`min-h-screen flex items-center justify-center px-8 py-20 ${theme.border} border-t`}>
+    <section id="experience" className={`portfolio-section min-h-screen flex items-center justify-center px-8 py-20 ${theme.border} border-t`}>
       <div className="max-w-4xl w-full">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
