@@ -1,0 +1,28 @@
+# hinfra.yml — binding explícito projeto ↔ infra
+app: my-portfolio
+appPath: apps/my-portfolio
+namespace: my-portfolio
+host: my-portfolio.hamasakis.dev
+exposure: public
+image: gabehamasaki/my-portfolio
+environments:
+  production:
+    enabled: true
+    tagPrefix: v
+    branch: main
+    appPath: apps/my-portfolio
+    namespace: my-portfolio
+  dev:
+    enabled: false
+    tagPrefix: dev/
+    branch: main
+    appPath: apps/my-portfolio/overlays/dev
+    namespace: my-portfolio-dev
+    host: my-portfolio.dev.hamasakis.dev
+  homolog:
+    enabled: false
+    tagPrefix: hg/
+    branch: main
+    appPath: apps/my-portfolio/overlays/homolog
+    namespace: my-portfolio-hg
+    host: my-portfolio.hg.hamasakis.dev
