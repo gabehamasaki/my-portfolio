@@ -46,13 +46,21 @@
     "projects": {
         "title": "Proyectos Destacados",
         "items": {
+            "scheduleVisits": {
+                "title": "Schedule Visits",
+                "description": "Agendamiento de visitas a vehículos de concesionario: el cliente elige el auto, consulta días y horarios disponibles y confirma la visita. API PHP en capas con PostgreSQL y frontend en React, desplegado en mi propia infra (Docker, GHCR y Kubernetes)."
+            },
+            "smartSale": {
+                "title": "Smart Sale",
+                "description": "Plataforma de inteligencia comercial con IA que integra ERP, DMS y marketplace para visibilidad y decisiones más rápidas en distribución, mayoristas y retail. Desarrollada en Exata Tech, con Laravel AI (Gemini) en el backend."
+            },
             "customerHub": {
                 "title": "Customer Experience Data Hub",
                 "description": "Plataforma robusta que actúa como hub centralizado para procesamiento, consolidación y compartición segura de datos de ventas y servicios con organizaciones terceras."
             },
             "esg": {
                 "title": "ESG Engagement Platform",
-                "description": "Solución dinámica para comprometer equipos en el logro de metas ESG, alineada con los Objetivos de Desarrollo Sostenible (ODS) de la ONU."
+                "description": "Plataforma de compromiso ESG (Baase) para equipos y metas alineadas con los ODS de la ONU. Laravel, Vue e Inertia en producción en Azure. Desarrollada en Exata Tech."
             },
             "warehouse": {
                 "title": "Warehouse & Logistics Portal",
@@ -62,6 +70,9 @@
                 "title": "Sports Betting Platform",
                 "description": "Sistema de apuestas deportivas de alto rendimiento con procesamiento de transacciones en tiempo real."
             }
+        },
+        "techHints": {
+            "hinfra": "Infra interna (hinfra): apps en Kubernetes, imágenes en GHCR y despliegues automatizados con GitHub Actions y un repo de infra."
         }
     },
     "contact": {
@@ -74,6 +85,13 @@
             "send": "Enviar Mensaje",
             "sent": "¡Mensaje Enviado!"
         }
+    },
+    "collection": {
+        "viewSlide": "Vista en slides",
+        "viewGrid": "Vista en cuadrícula",
+        "prev": "Anterior",
+        "next": "Siguiente",
+        "page": "{{current}} / {{total}}"
     },
     "footer": {
         "rights": "Todos los derechos reservados.",

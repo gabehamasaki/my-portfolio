@@ -46,13 +46,21 @@
     "projects": {
         "title": "Projetos em Destaque",
         "items": {
+            "scheduleVisits": {
+                "title": "Schedule Visits",
+                "description": "Sistema de agendamento de visitas a veículos de revenda: o cliente escolhe o carro, vê dias e horários disponíveis e confirma a visita. API PHP em camadas com PostgreSQL e frontend React, implantado na minha infra (Docker, GHCR e Kubernetes)."
+            },
+            "smartSale": {
+                "title": "Smart Sale",
+                "description": "Plataforma de inteligência comercial com IA que integra ERP, DMS e marketplace para visibilidade e decisões mais rápidas em distribuição, atacado e varejo. Desenvolvida na Exata Tech, com Laravel AI (Gemini) no backend."
+            },
             "customerHub": {
                 "title": "Customer Experience Data Hub",
                 "description": "Plataforma robusta que atua como hub centralizado para processamento, consolidação e compartilhamento seguro de dados de vendas e serviços com organizações terceirizadas."
             },
             "esg": {
                 "title": "ESG Engagement Platform",
-                "description": "Solução dinâmica para engajar equipes na conquista de metas ESG, alinhada com os Objetivos de Desenvolvimento Sustentável (ODS) da ONU."
+                "description": "Plataforma de engajamento ESG (Baase) para equipes e metas alinhadas aos ODS da ONU. Laravel, Vue e Inertia em produção na Azure. Desenvolvida na Exata Tech."
             },
             "warehouse": {
                 "title": "Warehouse & Logistics Portal",
@@ -62,6 +70,9 @@
                 "title": "Sports Betting Platform",
                 "description": "Sistema de apostas esportivas com alta performance e processamento de transações em tempo real."
             }
+        },
+        "techHints": {
+            "hinfra": "Infra interna (hinfra): apps no Kubernetes, imagens no GHCR e deploy automatizado via GitHub Actions e repositório de infra."
         }
     },
     "contact": {
@@ -74,6 +85,13 @@
             "send": "Enviar Mensagem",
             "sent": "Mensagem Enviada!"
         }
+    },
+    "collection": {
+        "viewSlide": "Visualização em slides",
+        "viewGrid": "Visualização em grade",
+        "prev": "Anterior",
+        "next": "Próximo",
+        "page": "{{current}} / {{total}}"
     },
     "footer": {
         "rights": "Todos os direitos reservados.",

@@ -46,13 +46,21 @@
     "projects": {
         "title": "Featured Projects",
         "items": {
+            "scheduleVisits": {
+                "title": "Schedule Visits",
+                "description": "Dealership vehicle visit scheduling: customers pick a car, browse available days and time slots, and confirm their visit. Layered PHP API with PostgreSQL and a React frontend, deployed on my own infra (Docker, GHCR, and Kubernetes)."
+            },
+            "smartSale": {
+                "title": "Smart Sale",
+                "description": "Commercial intelligence platform with AI that connects ERP, DMS, and marketplace data for real visibility and faster decisions in distribution, wholesale, and retail. Built at Exata Tech, with Laravel AI (Gemini) on the backend."
+            },
             "customerHub": {
                 "title": "Customer Experience Data Hub",
                 "description": "Robust platform acting as a centralized hub for processing, consolidating, and securely sharing sales and service data with third-party organizations."
             },
             "esg": {
                 "title": "ESG Engagement Platform",
-                "description": "Dynamic solution to engage teams in achieving ESG goals, aligned with the UN Sustainable Development Goals (SDGs)."
+                "description": "ESG engagement platform (Baase) for teams and goals aligned with the UN SDGs. Laravel, Vue, and Inertia in production on Azure. Built at Exata Tech."
             },
             "warehouse": {
                 "title": "Warehouse & Logistics Portal",
@@ -62,6 +70,9 @@
                 "title": "Sports Betting Platform",
                 "description": "High-performance sports betting system with real-time transaction processing."
             }
+        },
+        "techHints": {
+            "hinfra": "Internal infra (hinfra): apps on Kubernetes, images on GHCR, and automated deploys via GitHub Actions and an infra repo."
         }
     },
     "contact": {
@@ -74,6 +85,13 @@
             "send": "Send Message",
             "sent": "Message Sent!"
         }
+    },
+    "collection": {
+        "viewSlide": "Slide view",
+        "viewGrid": "Grid view",
+        "prev": "Previous",
+        "next": "Next",
+        "page": "{{current}} / {{total}}"
     },
     "footer": {
         "rights": "All rights reserved.",
