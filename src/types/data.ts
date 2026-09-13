@@ -11,6 +11,7 @@ export interface Project {
     tech: string[];
     link?: string;
     github?: string;
+    images?: string[];
 }
 
 export interface SkillCategory {
