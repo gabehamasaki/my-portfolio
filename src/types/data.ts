@@ -3,6 +3,8 @@ export interface Experience {
     company: string;
     period: string;
     description: string;
+    companyWebsite?: string;
+    companyLinkedIn?: string;
 }
 
 export interface Project {

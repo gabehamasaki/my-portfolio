@@ -3,7 +3,7 @@ import { useTranslation } from 'react-i18next';
 import { useTheme } from '@/context';
 import { ExperienceItem } from './ExperienceItem';
 
-const JOB_KEYS = ['exata', 'freelance', 'setebit'] as const;
+const JOB_KEYS = ['loop', 'exata', 'freelance', 'setebit'] as const;
 
 export function ExperienceSection() {
   const { t } = useTranslation();
@@ -24,16 +24,24 @@ export function ExperienceSection() {
           </div>
 
           <div className="relative">
-            {JOB_KEYS.map((jobKey, index) => (
-              <ExperienceItem
-                key={jobKey}
-                title={t(`experience.jobs.${jobKey}.title`)}
-                company={t(`experience.jobs.${jobKey}.company`)}
-                period={t(`experience.jobs.${jobKey}.period`)}
-                description={t(`experience.jobs.${jobKey}.description`)}
-                index={index}
-              />
-            ))}
+            {JOB_KEYS.map((jobKey, index) => {
+              const website = t(`experience.jobs.${jobKey}.companyWebsite`, { defaultValue: '' });
+              const linkedIn = t(`experience.jobs.${jobKey}.companyLinkedIn`, { defaultValue: '' });
+
+              return (
+                <ExperienceItem
+                  key={jobKey}
+                  title={t(`experience.jobs.${jobKey}.title`)}
+                  company={t(`experience.jobs.${jobKey}.company`)}
+                  period={t(`experience.jobs.${jobKey}.period`)}
+                  description={t(`experience.jobs.${jobKey}.description`)}
+                  index={index}
+                  companyWebsite={website || undefined}
+                  companyLinkedIn={linkedIn || undefined}
+                  linkedInLabel={t('experience.linkedIn')}
+                />
+              );
+            })}
           </div>
         </motion.div>
       </div>

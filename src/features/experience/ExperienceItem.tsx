@@ -7,9 +7,21 @@ interface ExperienceItemProps {
   period: string;
   description: string;
   index: number;
+  companyWebsite?: string;
+  companyLinkedIn?: string;
+  linkedInLabel: string;
 }
 
-export function ExperienceItem({ title, company, period, description, index }: ExperienceItemProps) {
+export function ExperienceItem({
+  title,
+  company,
+  period,
+  description,
+  index,
+  companyWebsite,
+  companyLinkedIn,
+  linkedInLabel,
+}: ExperienceItemProps) {
   const { theme, isDark } = useTheme();
 
   return (
@@ -34,7 +46,31 @@ export function ExperienceItem({ title, company, period, description, index }: E
         <div className="flex flex-col md:flex-row md:items-start md:justify-between gap-2">
           <div>
             <h3 className="text-xl md:text-2xl font-serif">{title}</h3>
-            <p className={`${theme.textSecondary} text-lg`}>{company}</p>
+            <p className={`${theme.textSecondary} text-lg flex flex-wrap items-center gap-x-2 gap-y-1`}>
+              {companyWebsite ? (
+                <a
+                  href={companyWebsite}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:underline underline-offset-4 transition-colors"
+                >
+                  {company}
+                </a>
+              ) : (
+                company
+              )}
+              {companyLinkedIn ? (
+                <a
+                  href={companyLinkedIn}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className={`text-sm ${theme.textTertiary} hover:underline underline-offset-4 transition-colors`}
+                  aria-label={`${linkedInLabel}: ${company}`}
+                >
+                  LinkedIn
+                </a>
+              ) : null}
+            </p>
           </div>
           <span className={`text-sm ${theme.textTertiary} tracking-wider uppercase px-3 py-1 rounded-full ${isDark ? 'bg-white/5' : 'bg-black/5'}`}>
             {period}

@@ -13,8 +13,8 @@
     },
     "about": {
         "title": "About",
-        "bio1": "Software Engineer with experience in high-complexity and critical projects, working on large-scale solutions for multinational clients in Latin America and North America.",
-        "bio2": "Solid experience in requirements analysis, business rules, backend and frontend development, RESTful API integration, microservices, and system documentation.",
+        "bio1": "Mid-Level Full-Stack Developer at Loop Brasil, building digital products for Brazil's automotive ecosystem.",
+        "bio2": "Previously delivered high-complexity, large-scale solutions for multinational clients across Latin America and North America, with strong experience in requirements analysis, backend and frontend development, RESTful APIs, microservices, and system documentation.",
         "specialties": "Specialties"
     },
     "skills": {
@@ -22,11 +22,20 @@
     },
     "experience": {
         "title": "Experience",
+        "linkedIn": "Company LinkedIn",
         "jobs": {
+            "loop": {
+                "title": "Mid-Level Full-Stack Developer",
+                "company": "Loop Brasil",
+                "period": "Oct 2026 - Present",
+                "description": "Full-stack development of digital solutions for the automotive sector, with services for retailers, executive and operational fleets, and financial institutions across Brazil.",
+                "companyWebsite": "https://loopbrasil.com/",
+                "companyLinkedIn": "https://www.linkedin.com/company/loopbrasil/"
+            },
             "exata": {
                 "title": "Development Analyst",
                 "company": "Exata Tech",
-                "period": "Oct 2023 - Present",
+                "period": "Oct 2023 - Sep 2026",
                 "description": "Development of high-impact projects for multinational companies. Customer Experience Data Platform, ESG Engagement Platform, and Warehouse & Logistics Management Portal."
             },
             "freelance": {

@@ -13,8 +13,8 @@
     },
     "about": {
         "title": "Sobre",
-        "bio1": "Engenheiro de Software com experiência em projetos de alta complexidade e criticidade, atuando em soluções de grande escala para clientes multinacionais na América Latina e América do Norte.",
-        "bio2": "Experiência sólida em análise de requisitos, regras de negócio, desenvolvimento backend e frontend, integração de APIs RESTful, microsserviços e documentação de sistemas.",
+        "bio1": "Desenvolvedor Full-Stack Pleno na Loop Brasil, atuando em produtos digitais para o ecossistema automotivo brasileiro.",
+        "bio2": "Experiência prévia em projetos de alta complexidade para clientes multinacionais na América Latina e América do Norte, com foco em análise de requisitos, backend e frontend, APIs RESTful, microsserviços e documentação de sistemas.",
         "specialties": "Especialidades"
     },
     "skills": {
@@ -22,11 +22,20 @@
     },
     "experience": {
         "title": "Experiência",
+        "linkedIn": "LinkedIn da empresa",
         "jobs": {
+            "loop": {
+                "title": "Desenvolvedor Full-Stack Pleno",
+                "company": "Loop Brasil",
+                "period": "Out 2026 - Presente",
+                "description": "Desenvolvimento full-stack em soluções digitais para o setor automotivo, com serviços para lojistas, frotas executivas e operacionais e instituições financeiras em todo o Brasil.",
+                "companyWebsite": "https://loopbrasil.com/",
+                "companyLinkedIn": "https://www.linkedin.com/company/loopbrasil/"
+            },
             "exata": {
                 "title": "Analista de Desenvolvimento",
                 "company": "Exata Tech",
-                "period": "Out 2023 - Presente",
+                "period": "Out 2023 - Set 2026",
                 "description": "Desenvolvimento de projetos de alto impacto para empresas multinacionais. Plataforma de Dados para Avaliação da Experiência do Cliente, Plataforma de Engajamento ESG e Portal de Gerenciamento de Armazém e Logística."
             },
             "freelance": {
